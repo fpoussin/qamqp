@@ -1,5 +1,5 @@
 DEPTH = ../../..
-include($${DEPTH}/qamqp.pri)
+include($${DEPTH}/qtamqp.pri)
 include($${DEPTH}/tests/tests.pri)
 
 TARGET = tst_qamqpqueue

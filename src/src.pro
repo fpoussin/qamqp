@@ -20,7 +20,6 @@ contains(QAMQP_LIBRARY_TYPE, staticlib) {
     DEFINES += QAMQP_STATIC
 } else {
     DEFINES += QAMQP_SHARED
-    win32:QAMQP_LIBS = -lqamqp0
 }
 
 include($$PWD/src.pri)
